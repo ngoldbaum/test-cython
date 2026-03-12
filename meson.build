@@ -16,6 +16,6 @@ py.extension_module(
 )
 
 py.install_sources(
- '__init__.py',
+ ['__init__.py', 'test_py.py'],
   subdir: 'test_resize',
 )
