@@ -1,0 +1,12 @@
+[build-system]
+build-backend = "mesonpy"
+requires = [
+    "meson-python",
+    "Cython",
+]
+
+[project]
+name = "test-resize"
+version = "0.0.1"
+license = "MIT"
+dependencies = ["numpy"]
